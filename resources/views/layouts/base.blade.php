@@ -461,7 +461,7 @@
             
             <ul class="nav flex-column sidebar-profile">
                 <li class="nav-item">
-                    <a href="{{ route('settings.edit')}}" class="nav-link d-flex align-items-center{{ Request::is('profile') ? ' active' : '' }}">
+                    <a href="{{ route('profile.edit')}}" class="nav-link d-flex align-items-center{{ Request::is('profile') ? ' active' : '' }}">
                         <img src="/profile.jpg" alt="Profile" class="sidebar-profile-img me-2">
                         <span>Profile</span>
                     </a>
