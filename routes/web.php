@@ -32,8 +32,3 @@ Route::get('/add-post', function () {
     return view('postform');
 })->name('post.add');
 
-//home page
-
-Route::get('/home', function () {
-    return view('home');
-})->name('home');
